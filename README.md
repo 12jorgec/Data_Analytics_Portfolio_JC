@@ -40,6 +40,6 @@ I hold over 50 professional certifications focusing on the full data analysis li
 ---
 
 ## 📫 Contact & Professional Profiles
-* **LinkedIn:** [Insert your LinkedIn Link]
-* **Email:** [jorge.carloscuevasnoriega@gmail.com](mailto:jorge.carloscuevasnoriega@gmail.com)
-* **Mexico** | Open to Global Data Analyst Opportunities
+- **LinkedIn**: [Jorge Carlos Cuevas Noriega](https://www.linkedin.com/in/jorge-carlos-cuevas-noriega-a4490a196)
+- **Portfolio**: [GitHub Repository](https://github.com/12jorgec/Data_Analytics_Portfolio_JC)
+- **Email**: [jorge.carloscuevasnoriega@gmail.com](mailto:jorge.carloscuevasnoriega@gmail.com)
