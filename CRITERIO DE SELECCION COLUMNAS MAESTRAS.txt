@@ -1,0 +1,29 @@
+CRITERIO DE SELECCION COLUMNAS MAESTRAS KLO
+1. El Criterio de la "Llave Primaria" (ID_UNICO)
+Este es el criterio de Granularidad.
+
+Qué buscar: La columna que representa la unidad más pequeña de información.
+
+En Retail: Es el Order ID (porque una fila = una orden).
+
+En Logística: Es el Trip ID o Unit Number.
+
+En Educación: Es el Student ID.
+
+Regla de Oro: Si al eliminar duplicados basados en esta columna pierdes información valiosa, entonces elegiste la granularidad equivocada.
+
+2. El Criterio del "Valor de Negocio" (VENTAS / VALOR)
+Este es el criterio Cuantitativo.
+
+Qué buscar: La columna que responde a la pregunta "¿Cuánto?". Es la que vas a sumar, promediar o comparar.
+
+Por qué es Maestra: El sistema necesita saber cuál es para aplicar el IQR (Outliers). No quieres limpiar outliers en una columna de "Años" o "Cantidades pequeñas", sino en la que mueve el dinero o el volumen principal.
+
+Cuidado: Siempre asegúrate de que sea una columna numérica.
+
+3. El Criterio de la "Entidad Descriptiva" (PRODUCTO / CLIENTE)
+Este es el criterio Cualitativo.
+
+Qué buscar: El nombre del objeto o sujeto principal del análisis.
+
+Para qué sirve: Para aplicar el sanitize_text. Es la columna que suele venir con errores de dedo, espacios extra o símbolos extraños (ej. " Laptop L-100!!" vs "Laptop L-100").
