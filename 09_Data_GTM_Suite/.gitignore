@@ -1,0 +1,24 @@
+# --- Datasets (No subir archivos pesados de 100k filas) ---
+*.csv
+*.xlsx
+DATA/
+
+# --- Reportes Temporales y Finales ---
+# Ignoramos los PDF generados para que el portafolio no se llene de archivos de prueba
+Reports/REPORT_JCCN_*.pdf
+temp_to_merge.pdf
+temp_raw_content.pdf
+
+# --- Assets Visuales ---
+# Ignoramos las gráficas individuales, ya que lo importante es el código que las genera
+Reports/Assets/*.png
+
+# --- Python & IDE ---
+__pycache__/
+.vscode/
+.env
+*.pyc
+
+# --- OS ---
+.DS_Store
+Thumbs.db
